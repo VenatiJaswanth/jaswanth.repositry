@@ -5,18 +5,20 @@ import java.util.ArrayList;
 public class FixBugs{
 
 	public static void main(String[] args) {
-		System.out.println("\t List of Required Products \n");
-        System.out.println("--------------------------------------------------");
+		System.out.println("Hello World!");
+    System.out.println("\n----------------------------------------------\n");
+    System.out.println("\t WELCOME TO THE DESK: \n");
+    System.out.println("--------------------------------------------------");
         optionsSelection();
 
     }
     private static void optionsSelection() {
-        String[] array = {"1. I want to review Products Expenditure",
-                "2. I want to add Products Expenditure",
-                "3. I want to delete Products Expenditure",
-                "4. I want to sort the Products Expenditures",
-                "5. I want to search for Particular Product Expenditure",
-                "6. End the Product application"
+        String[] array = {"1. I wish to review my expenditure",
+                "2. I wish to add my expenditure",
+                "3. I wish to delete my expenditure",
+                "4. I wish to sort the expenditures",
+                "5. I wish to search for a particular expenditure",
+                "6. Close the application"
         };
         int[] array1 = {1,2,3,4,5,6};
         int  Slength = array1.length;
