@@ -27,11 +27,11 @@ public class FixBugs{
              }
         ArrayList<Integer> arraylist = new ArrayList<Integer>();
         ArrayList<Integer> Expenses = new ArrayList<Integer>();
-        Expenses.add(158);
-        Expenses.add(360);
-        Expenses.add(550);
-        Expenses.add(450);
-        Expenses.add(196);
+        Expenses.add(1000);
+        Expenses.add(2300);
+        Expenses.add(45000);
+        Expenses.add(32000);
+        Expenses.add(110);
         Expenses.addAll(arraylist);
         System.out.println("\nENTER YOUR CHOICE :\t");
         @SuppressWarnings("resource")
