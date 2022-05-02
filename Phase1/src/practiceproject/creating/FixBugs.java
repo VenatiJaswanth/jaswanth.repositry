@@ -9,8 +9,7 @@ public class FixBugs{
     System.out.println("\n----------------------------------------------\n");
     System.out.println("\t WELCOME TO THE DESK: \n");
     System.out.println("--------------------------------------------------");
-        optionsSelection();
-
+    optionsSelection();
     }
     private static void optionsSelection() {
         String[] array = {"1. I wish to review my expenditure",
